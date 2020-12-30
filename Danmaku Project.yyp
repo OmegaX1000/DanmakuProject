@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"fnt_normal","path":"fonts/fnt_normal/fnt_normal.yy",},"order":0,},
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},"order":0,},
   ],
   "Options": [
