@@ -1,6 +1,6 @@
 #region //Library Macro's
-#macro DanmakuProject_Version "0.0.2"
-#macro DanmakuProject_Date    "2021-1-1"
+#macro DanmakuProject_Version "0.0.3"
+#macro DanmakuProject_Date    "2021-1-2"
 #macro DanmakuProject_Debug   true
 #endregion
 #region //Library Debug Mode
