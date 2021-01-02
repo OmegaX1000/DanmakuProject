@@ -17,9 +17,20 @@ global.master_barrage_group = ds_map_create(); //This holds all of the barrage t
 global.barrage_key_list = ds_list_create(); //This list holds the keys for all of the barrage's in the ds map.
 #endregion
 #region //Library Basic Functions
+#region //DanmakuProject_Trace
 function DanmakuProject_Trace(_message)
 {
 	var _string = "Danmaku Project: " + _message;
 	show_debug_message(_string);
+	return _string;
 }
+#endregion
+#region //DanmakuProject_Error
+function DanmakuProject_Error(_error)
+{
+	var _string = "Danmaku Project: " + _error;
+	show_error(_string, false);
+	return _string;
+}
+#endregion
 #endregion

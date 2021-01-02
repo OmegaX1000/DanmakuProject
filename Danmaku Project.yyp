@@ -15,7 +15,7 @@
     {"id":{"name":"lazer01","path":"sounds/lazer01/lazer01.yy",},"order":13,},
     {"id":{"name":"obj_test_attack","path":"objects/obj_test_attack/obj_test_attack.yy",},"order":1,},
     {"id":{"name":"kira02","path":"sounds/kira02/kira02.yy",},"order":11,},
-    {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":0,},
+    {"id":{"name":"spr_testbullet","path":"sprites/spr_testbullet/spr_testbullet.yy",},"order":0,},
     {"id":{"name":"Danmaku_Draw","path":"scripts/Danmaku_Draw/Danmaku_Draw.yy",},"order":2,},
     {"id":{"name":"graze","path":"sounds/graze/graze.yy",},"order":6,},
     {"id":{"name":"gun00","path":"sounds/gun00/gun00.yy",},"order":7,},

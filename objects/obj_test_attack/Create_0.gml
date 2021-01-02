@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 CreateDanmaku_Barrage("TestBarrage");
-Bullet = CreateDanmaku_Bullet("TestBarrage", spr_bullet, 100, 100);
+CreateDanmaku_Bullet_Basic("TestBarrage", spr_testbullet, 1, 100, 100);
