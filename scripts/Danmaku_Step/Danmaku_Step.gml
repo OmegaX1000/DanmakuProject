@@ -15,9 +15,13 @@ function Danmaku_Step()
 			if (_bullet.AnimSpeed > 0)
 			{
 				var _spr_frames = sprite_get_number(_bullet.Sprite); //Number of frames in the current Bullet Sprite.
-				var _spr_speed = sprite_get_speed(_bullet.Sprite) * _bullet.AnimSpeed;
-				var _spr_animation = ((sprite_get_speed_type(_bullet.Sprite) == spritespeed_framespergameframe) ? _spr_speed : (_spr_speed / game_get_speed(gamespeed_fps)));
-				_bullet.Sprite_Index += (_spr_animation mod _spr_frames);
+				var _spr_animSpeed = sprite_get_speed(_bullet.Sprite) * (_bullet.AnimSpeed);
+				var _spr_gameframe = spritespeed_framespergameframe;
+				var _spr_conditional_1 = (sprite_get_speed_type(_bullet.Sprite) == _spr_gameframe);
+				var _spr_conditional_2 = _spr_animSpeed / game_get_speed(gamespeed_fps);
+				var _spr_spriteIndex = (_spr_conditional_1 ? _spr_animSpeed : _spr_conditional_2);
+				
+				_bullet.Sprite_Index += (_spr_spriteIndex mod _spr_frames);
 			}
 			#endregion
 		}

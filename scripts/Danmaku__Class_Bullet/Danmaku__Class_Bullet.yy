@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Danmaku Project.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Danmaku_Barrage",
+  "name": "Danmaku__Class_Bullet",
   "tags": [],
   "resourceType": "GMScript",
 }
